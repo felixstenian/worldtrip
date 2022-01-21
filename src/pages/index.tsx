@@ -1,9 +1,11 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
+import { Header } from "../components";
 
 export default function Home() {
   return (
-    <Flex justify='center'>
+    <Box align='center' justifyContent='center'>
+      <Header />
       <Text fontSize={32} fontWeight={700}>World trip</Text>
-    </Flex> 
+    </Box> 
   )
 }
