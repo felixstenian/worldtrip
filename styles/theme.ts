@@ -5,8 +5,11 @@ export const theme = extendTheme({
     text: {
       'light': '#F5F8FA',
       'dark': '#47585B'
-
-    }
+    },
+    info: {
+      'light': '#DADADA',
+    },
+    highlight: '#FFBA08',
   },
   fonts: {
     heading: 'Poppins',
