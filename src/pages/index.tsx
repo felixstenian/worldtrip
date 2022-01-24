@@ -1,4 +1,4 @@
-import { Box, Flex, HStack, Image, List, ListItem, Stack, Text, UnorderedList, useBreakpointValue } from "@chakra-ui/react";
+import { Box, Divider, Flex, HStack, Image, List, ListItem, Stack, Text, UnorderedList, useBreakpointValue } from "@chakra-ui/react";
 import { Header } from "../components";
 
 export default function Home() {
@@ -51,6 +51,7 @@ export default function Home() {
             flexWrap='wrap' 
             justifyContent='center' 
             align='center'
+            // whiteSpace='break-spaces'
             __css={{
               listStyleType: isWideVersion  && 'none',
               listStyle: isWideVersion  && 'none',
@@ -82,6 +83,15 @@ export default function Home() {
             </ListItem>
           </UnorderedList>
         </Flex>
+
+        <Box align='center' justify='center' mt='100px'>
+          <Divider w='90px' border='2px' borderColor='text.dark' />
+        </Box>
+
+        <Box align='center' justify='center' mt='80px'>
+          <Text fontWeight={500} fontSize={36} lineHeight='54px'>Vamos nessa?</Text>
+          <Text fontWeight={500} fontSize={36} lineHeight='54px'>Então escolha seu continente</Text>
+        </Box>
       </Flex>
     </Flex> 
   )
