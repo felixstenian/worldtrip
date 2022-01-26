@@ -65,8 +65,8 @@ const Carousel = () => {
                   justifyContent='center'
                   h={[250, 450]}
                 >
-                  <Text fontSize={48} lineHeight='72px' fontWeight={700} color='text.light'>{continent.continent}</Text>
-                  <Text fontSize={24} lineHeight='36px' fontWeight={700} color='info.light'>{continent.description || ''}</Text>
+                  <Text fontSize={[24, 48]} lineHeight={['36px', '72px']} fontWeight={700} color='text.light'>{continent.continent}</Text>
+                  <Text fontSize={[14, 24]} lineHeight={['21px', '36px']} fontWeight={700} color='info.light'>{continent.description || ''}</Text>
                 </Flex>
               </Box>
             </SwiperSlide>

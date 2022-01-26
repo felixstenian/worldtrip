@@ -12,7 +12,7 @@ export default function Home() {
     <Flex  justifyContent='center' flexDir='column'>
       <Header />
       <Flex w='100%' flexDir='column'>
-        <Box 
+        <Box
           h={368.21}
           justify='space-between'
           __css={{
@@ -94,7 +94,7 @@ export default function Home() {
       </Flex>
 
       <Flex align='center' justify='center' py={50}>
-        <Box maxWidth={['375', '1040']}  w='100%'>
+        <Box maxWidth='1040' w='100%'>
           <Carousel />
         </Box>
       </Flex>
