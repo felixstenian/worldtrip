@@ -52,32 +52,32 @@ export default function Home() {
             justifyContent='center' 
             align='center'
             __css={{
-              listStyleType: isWideVersion  && 'none',
-              listStyle: isWideVersion  && 'none',
+              listStyleType: !isWideVersion  ? 'initial' : 'none',
+              listStyle: !isWideVersion  ? 'initial' : 'none',
             }}
           >
             <ListItem mx={6} justifyContent='center' textAlign='center' align='center'> 
-              { isWideVersion && <Image src='/cocktail.png' alt='cocktail' px={10} /> }
+              { !!isWideVersion && <Image src='/cocktail.png' alt='cocktail' px={10} /> }
               <Text mt={8} fontWeight={[500, 600]} fontSize={[18, 24]} lineHeight={['27px', '36px']} color='text.dark'>vida noturna</Text>
             </ListItem>
 
             <ListItem mx={6} >
-              { isWideVersion && <Image src='/surf.png' alt='surf' px={10} /> }
+              { !!isWideVersion && <Image src='/surf.png' alt='surf' px={10} /> }
               <Text mt={8} fontWeight={[500, 600]} fontSize={[18, 24]} lineHeight={['27px', '36px']} color='text.dark'>praia</Text>
             </ListItem>
 
             <ListItem mx={6} >
-              { isWideVersion && <Image src='/building.png' alt='building' px={10} />   }
+              { !!isWideVersion && <Image src='/building.png' alt='building' px={10} />   }
               <Text mt={8} fontWeight={[500, 600]} fontSize={[18, 24]} lineHeight={['27px', '36px']} color='text.dark'>moderno</Text>
             </ListItem>
 
             <ListItem mx={6} >
-              { isWideVersion && <Image src='/museum.png' alt='museum' px={10} /> }
+              { !!isWideVersion && <Image src='/museum.png' alt='museum' px={10} /> }
               <Text mt={8} fontWeight={[500, 600]} fontSize={[18, 24]} lineHeight={['27px', '36px']} color='text.dark'>clássico</Text>
             </ListItem>
 
             <ListItem mx={6} >
-              { isWideVersion && <Image src='/earth.png' alt='earth' px={10} /> }
+              { !!isWideVersion && <Image src='/earth.png' alt='earth' px={10} /> }
               <Text mt={8} fontWeight={[500, 600]} fontSize={[18, 24]} lineHeight={['27px', '36px']} color='text.dark'>e mais...</Text>
             </ListItem>
           </UnorderedList>
