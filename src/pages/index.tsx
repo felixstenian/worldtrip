@@ -94,7 +94,7 @@ export default function Home() {
       </Flex>
 
       <Flex align='center' justify='center' py={50}>
-        <Box maxWidth='1040' w='100%'>
+        <Box maxWidth='1240' w='100%'>
           <Carousel />
         </Box>
       </Flex>
