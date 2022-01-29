@@ -1,50 +1,30 @@
-import { Box, Flex, Image, Text } from '@chakra-ui/react';
-import { useRouter } from 'next/router';
-import React from 'react';
+import { GetServerSideProps } from 'next';
+import { Box, Flex, Image, Text, Icon, Tooltip } from '@chakra-ui/react';
+
 import { Header } from '../components';
+interface ContinentDataProps {
+  slug: string;
+  name: string;
+  subTitle: string;
+  img: string;
+  description: string;
+  countries: number;
+  languages: number;
+  citiesNum: number;
+  citiesPlus: [
+    {
+      city: string;
+      capital: string;
+      flag: string;
+      img: string;
+    }
+  ]
+}
+interface ContinentProps {
+  continent: ContinentDataProps
+}
 
-const Continent = () => {
-  const { query: { continent } } = useRouter()
-
-  // TODO:
-    // Pegar continent
-    // Fazer request para mostrar dados
-
-  const mockContinent = {
-    continent: 'Europa',
-    description: 'A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste',
-    countries: 50,
-    languages: 60,
-    citiesNum: 27,
-    cities: [
-      {
-        city: 'Reino Unido',
-        capital: 'Londres',
-        flag: ''
-      },
-      {
-        city: 'França',
-        capital: 'Paris',
-        flag: ''
-      },
-      {
-        city: 'Itália',
-        capital: 'Roma',
-        flag: ''
-      },
-      {
-        city: 'Republica Tcheca',
-        capital: 'Praga',
-        flag: ''
-      },
-      {
-        city: 'Holanda',
-        capital: 'Amsterdã',
-        flag: ''
-      }
-    ]
-  }
-
+const Continent = ({ continent }: ContinentProps) => {
   return (
     <Flex  justifyContent='center' flexDir='column'>
       <Header />
@@ -58,14 +38,14 @@ const Continent = () => {
          }}
         >
           <Flex h='100%' w='100%' justify={['center', 'flex-start']} align={['center', 'flex-end']}>
-            <Text ml={[0, 70, 140]} mb={[0, 59]} color='text.light' fontSize={48} lineHeight='72px' fontWeight={600} >{mockContinent.continent}</Text>
+            <Text ml={[0, 70, 140]} mb={[0, 59]} color='text.light' fontSize={48} lineHeight='72px' fontWeight={600} >{continent?.name}</Text>
           </Flex>
         </Flex>
 
         <Flex flexDir={['column', 'column', 'column', 'row']} mx={[5, 10, 20, 30, 140]} my={[25, 75]}>
           <Box w={['100%', '100%', '100%', '50%']}>
             <Text fontSize={[14, 24]} lineHeight={['21px', '36px']} textAlign='justify'>
-              {mockContinent.description}
+              {continent?.description}
             </Text>
           </Box>
           <Flex
@@ -78,7 +58,7 @@ const Continent = () => {
           >
             <Flex flexDir='column' justify='center' align='center'>
               <Text color='highlight' fontSize={[24, 48]} lineHeight={['36px', '72px']} fontWeight={600}>
-                {mockContinent.countries}
+                {continent?.countries}
               </Text>
               <Text color='text.dark' fontSize={[18, 24]} lineHeight={['27px', '36px']} fontWeight={600}>
                 países
@@ -87,7 +67,7 @@ const Continent = () => {
 
             <Flex flexDir='column' justify='center' align='center'>
               <Text color='highlight' fontSize={[24, 48]} lineHeight={['36px', '72px']} fontWeight={600}>
-                {mockContinent.languages}
+                {continent?.languages}
               </Text>
               <Text color='text.dark' fontSize={[18, 24]} lineHeight={['27px', '36px']} fontWeight={600}>
                 línguas
@@ -96,11 +76,16 @@ const Continent = () => {
 
             <Flex flexDir='column' justify='center' align='center'>
               <Text color='highlight' fontSize={[24, 48]} lineHeight={['36px', '72px']} fontWeight={600}>
-                {mockContinent.citiesNum}
+                {continent?.citiesNum}
               </Text>
-              <Text color='text.dark' fontSize={[18, 24]} lineHeight={['27px', '36px']} fontWeight={600}>
-                cidades +100
-              </Text>
+              <Flex align='center'>
+                <Text color='text.dark' fontSize={[18, 24]} lineHeight={['27px', '36px']} fontWeight={600} mr={1}>
+                  cidades +100
+                </Text>
+                <Tooltip label="São as cidades deste continente que estão entre as 100 cidades mais visitadas do mundo." aria-label='A tooltip'>
+                  <Icon fontSize={20} color='gray.150' />
+                </Tooltip>
+              </Flex>
             </Flex>
           </Flex>
         </Flex>
@@ -111,7 +96,7 @@ const Continent = () => {
           </Text>
 
           <Flex flexWrap={['wrap']} justify={['center', 'center', 'center', 'flex-start']} align='center'>
-            {mockContinent?.cities?.map(city => (
+            {continent?.citiesPlus?.map(city => (
               <Box key={city.city} border='1px solid' borderColor='rgba(255, 186, 8, 0.5)' borderRadius={4} mr={[5]} my={5}>
                 <Image src='/Foto.png' alt='Foto' />
                 <Flex justify='space-around' align='center' py={5}>
@@ -131,5 +116,16 @@ const Continent = () => {
     </Flex>
   );
 };
+
+export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+  const response = await fetch(`http://localhost:3000/continents?slug=${params.continent}`)
+  const continent = await response.json()
+
+  return {
+    props: {
+      continent: continent[0] || []
+    }
+  }
+}
 
 export default Continent

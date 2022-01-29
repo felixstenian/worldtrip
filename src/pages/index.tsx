@@ -1,7 +1,40 @@
-import { Box, Divider, Flex, Image, ListItem, Stack, Text, UnorderedList, useBreakpointValue } from "@chakra-ui/react";
+import {
+  Box, 
+  Divider, 
+  Flex, 
+  Image, 
+  ListItem, 
+  Stack, 
+  Text, 
+  UnorderedList, 
+  useBreakpointValue 
+} from "@chakra-ui/react";
+import { GetStaticProps } from "next";
 import { Carousel, Header } from "../components";
 
-export default function Home() {
+interface ContinentProps {
+  slug: string;
+  name: string;
+  subTitle: string;
+  img: string;
+  description: string;
+  countries: number;
+  languages: number;
+  citiesNum: number;
+  citiesPlus: [
+    {
+      city: string;
+      capital: string;
+      flag: string;
+      img: string;
+    }
+  ]
+}
+interface HomeProps {
+  continents: ContinentProps[]
+}
+
+const Home = ({ continents }: HomeProps) => {
   const isWideVersion = useBreakpointValue({
     base: false,
     md: true,
@@ -95,9 +128,22 @@ export default function Home() {
 
       <Flex align='center' justify='center' py={50}>
         <Box maxWidth='1240' w='100%'>
-          <Carousel />
+          <Carousel continents={continents} />
         </Box>
       </Flex>
     </Flex> 
   )
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const response = await fetch('http://localhost:3000/continents')
+  const continents = await response.json()
+
+  return {
+    props: {
+      continents
+    }
+  }
+}
+
+export default Home

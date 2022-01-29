@@ -13,7 +13,29 @@ SwiperCore.use([Navigation, Pagination, Keyboard])
 
 const EMPTY_IMG = 'Background.png'
 
-const Carousel = () => {
+interface ContinentProps {
+  slug: string;
+  name: string;
+  subTitle: string;
+  img: string;
+  description: string;
+  countries: number;
+  languages: number;
+  citiesNum: number;
+  citiesPlus: [
+    {
+      city: string;
+      capital: string;
+      flag: string;
+      img: string;
+    }
+  ]
+}
+interface CarouselProps {
+  continents: ContinentProps[]
+}
+
+const Carousel = ({ continents }: CarouselProps) => {
   const dataCarousel = [
     {
       continent: 'América do Norte',
@@ -55,37 +77,38 @@ const Carousel = () => {
   return (
     <>
       <Swiper cssMode={false} navigation={true} pagination={true} keyboard={true}>
-          {dataCarousel?.map((continent, index) => (
-            <SwiperSlide
-              key={index}
+        {continents?.map((continent, index) => (
+          <SwiperSlide
+            key={index}
+            
+          >
+            <Link
+              href={`/${continent.slug}`}
+              passHref
             >
-                <Link
-                  href={`/${continent.slug}`}
-                  passHref
+              <Box
+                __css={{
+                  bgImage:
+                    `url(${continent?.img || EMPTY_IMG })`,
+                   bgSize: "cover",
+                }}
+                _hover={{
+                  cursor: 'pointer'
+                }}
+              >
+                <Flex
+                  flexDir='column'
+                  align='center' 
+                  justifyContent='center'
+                  h={[250, 450]}
                 >
-                <Box
-                  __css={{
-                    bgImage:
-                      `url(${continent?.image || EMPTY_IMG })`,
-                    bgSize: "cover",
-                  }}
-                  _hover={{
-                    cursor: 'pointer'
-                  }}
-                >
-                  <Flex
-                    flexDir='column'
-                    align='center' 
-                    justifyContent='center'
-                    h={[250, 450]}
-                  >
-                    <Text fontSize={[24, 48]} lineHeight={['36px', '72px']} fontWeight={700} color='text.light'>{continent.continent}</Text>
-                    <Text fontSize={[14, 24]} lineHeight={['21px', '36px']} fontWeight={700} color='info.light'>{continent.description || ''}</Text>
-                  </Flex>
-                </Box>
+                  <Text fontSize={[24, 48]} lineHeight={['36px', '72px']} fontWeight={700} color='text.light'>{continent.name}</Text>
+                  <Text fontSize={[14, 24]} lineHeight={['21px', '36px']} fontWeight={700} color='info.light'>{continent.subTitle || ''}</Text>
+                </Flex>
+              </Box>
             </Link>
-              </SwiperSlide>
-          ))}
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
