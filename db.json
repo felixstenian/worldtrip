@@ -11,32 +11,122 @@
       "citiesNum": 16,
       "citiesPlus": [
         {
-          "city": "Reino Unido",
-          "capital": "Londres",
+          "city": "Reino Unido (United Kingdom)",
+          "capital": "Londres (London)",
           "flag": "",
           "img": ""
         },
         {
-          "city": "França",
+          "city": "França (France)",
           "capital": "Paris",
           "flag": "",
           "img": ""
         },
         {
-          "city": "Itália",
-          "capital": "Roma",
+          "city": "Turkey",
+          "capital": "Istanbul",
           "flag": "",
           "img": ""
         },
         {
-          "city": "Republica Tcheca",
+          "city": "Turkey",
+          "capital": "Antalya",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Itália (Italy)",
+          "capital": "Roma (Rome)",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Republica Tcheca (Czechia)",
           "capital": "Praga",
           "flag": "",
           "img": ""
         },
         {
-          "city": "Holanda",
-          "capital": "Amsterdã",
+          "city": "Holanda (Netherlands)",
+          "capital": "Amsterdã (Amsterdam)",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Spain",
+          "capital": "Barcelona",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Italy",
+          "capital": "Milan",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Austria",
+          "capital": "Vienna",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Germany",
+          "capital": "Berlin",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Greece",
+          "capital": "Athens",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Russia",
+          "capital": "Moscow",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Italy",
+          "capital": "Venice",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Spain",
+          "capital": "Madrid",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Ireland",
+          "capital": "Dublin",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Italy",
+          "capital": "Florence",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Portugal",
+          "capital": "Lisbon",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "France",
+          "capital": "Nice",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Portugal",
+          "capital": "Porto",
           "flag": "",
           "img": ""
         }
