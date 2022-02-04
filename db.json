@@ -143,8 +143,62 @@
       "citiesNum": 28,
       "citiesPlus": [
         {
-          "city": "",
-          "capital": "",
+          "city": "US",
+          "capital": "New York City",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "US",
+          "capital": "Miami",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "US",
+          "capital": "Los Angeles",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "US",
+          "capital": "Las Vegas",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Mexico",
+          "capital": "Cancun",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "US",
+          "capital": "Orlando",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Canada",
+          "capital": "Toronto",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Canada",
+          "capital": "Vancouver",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "US",
+          "capital": "San Francisco",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "US",
+          "capital": "Honolulu",
           "flag": "",
           "img": ""
         }
@@ -161,8 +215,20 @@
       "citiesNum": 163,
       "citiesPlus": [
         {
-          "city": "",
-          "capital": "",
+          "city": "Argentina",
+          "capital": "Buenos Aires City",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Peru",
+          "capital": "Lima",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Brazil",
+          "capital": "Rio de Janeiro",
           "flag": "",
           "img": ""
         }
@@ -179,8 +245,236 @@
       "citiesNum": 34,
       "citiesPlus": [
         {
-          "city": "",
-          "capital": "",
+          "city": "Asia",
+          "capital": "Hong Kong",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Thailand",
+          "capital": "Bangkok",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China (SAR)",
+          "capital": "Macau",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Singapore",
+          "capital": "Singapore",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "UAE",
+          "capital": "Dubai",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Malaysia",
+          "capital": "Kuala Lumpur",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Turkey",
+          "capital": "Istanbul",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "India",
+          "capital": "Delhi",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Turkey",
+          "capital": "Antalya",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China",
+          "capital": "Shenzhen",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "India",
+          "capital": "Mumbai",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Thailand",
+          "capital": "Phuket",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Japan",
+          "capital": "Tokyo",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Thailand",
+          "capital": "Pattaya",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Taiwan, China",
+          "capital": "Taipei",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Saudi Arabia",
+          "capital": "Mecca",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China",
+          "capital": "Guangzhou",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Saudi Arabia",
+          "capital": "Medina",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "South Korea",
+          "capital": "Seoul",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "India",
+          "capital": "Agra",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Japan",
+          "capital": "Osaka",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China",
+          "capital": "Shanghai",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Vietnam",
+          "capital": "Ho Chi Minh City",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Indonesia",
+          "capital": "Denpasar",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "India",
+          "capital": "Chennai",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Malaysia",
+          "capital": "Johor Bahru",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "India",
+          "capital": "Jaipur",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Egypt",
+          "capital": "Cairo",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Russia",
+          "capital": "Moscow",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Vietnam",
+          "capital": "Ha Long",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Saudi Arabia",
+          "capital": "Riyadh",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China",
+          "capital": "Beijing",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Japan",
+          "capital": "Kyoto",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China",
+          "capital": "Zhuhai",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Thailand",
+          "capital": "Chiang Mai",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "China",
+          "capital": "Guilin",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Japan",
+          "capital": "Chiba",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "Japan",
+          "capital": "Fukuoka",
+          "flag": "",
+          "img": ""
+        },
+        {
+          "city": "South Korea",
+          "capital": "Jeju",
           "flag": "",
           "img": ""
         }
