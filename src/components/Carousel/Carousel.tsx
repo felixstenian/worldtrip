@@ -36,51 +36,12 @@ interface CarouselProps {
 }
 
 const Carousel = ({ continents }: CarouselProps) => {
-  const dataCarousel = [
-    {
-      continent: 'América do Norte',
-      image: '',
-      description: '',
-      slug: 'america-do-norte'
-    },
-    {
-      continent: 'América do Sul',
-      image: '',
-      description: '',
-      slug: 'america-do-sul'
-    },
-    {
-      continent: 'Ásia',
-      image: '',
-      description: '',
-      slug: 'asia'
-    },
-    {
-      continent: 'África',
-      image: '',
-      description: '',
-      slug: 'africa'
-    },
-    {
-      continent: 'Europa',
-      image: 'Continent_Image.png',
-      description: 'O continente mais antigo.',
-      slug: 'europa'
-    },
-    {
-      continent: 'Oceania',
-      image: '',
-      description: '',
-      slug: 'oceania'
-    }
-  ]
   return (
     <>
       <Swiper cssMode={false} navigation={true} pagination={true} keyboard={true}>
         {continents?.map((continent, index) => (
           <SwiperSlide
             key={index}
-            
           >
             <Link
               href={`/${continent.slug}`}

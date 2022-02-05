@@ -33,7 +33,7 @@ const Continent = ({ continent }: ContinentProps) => {
          h={500}
          __css={{
            bgImage:
-             "url(/Banner.png)",
+             `url(${continent?.img})`,
            bgSize: "cover",
          }}
         >
@@ -98,14 +98,14 @@ const Continent = ({ continent }: ContinentProps) => {
           <Flex flexWrap={['wrap']} justify={['center', 'center', 'center', 'flex-start']} align='center'>
             {continent?.citiesPlus?.map(city => (
               <Box key={city.city} border='1px solid' borderColor='rgba(255, 186, 8, 0.5)' borderRadius={4} mr={[5]} my={5}>
-                <Image src='/Foto.png' alt='Foto' />
+                <Image src={city.img} alt='Foto' w={256} h={173} />
                 <Flex justify='space-around' align='center' py={5}>
                   <Box>
                     <Text>{city.city}</Text>
                     <Text>{city.capital}</Text>
                   </Box>
                   <Box>
-                    <Image src='/Ellipse.png' alt='Ellipse' />
+                    <Image src={city.flag} alt='bandeira'  w={30}  border='1px solid #dedede' />
                   </Box>
                 </Flex>
               </Box>
