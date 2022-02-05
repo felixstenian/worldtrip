@@ -2,141 +2,141 @@
   "continents": [
     {
       "slug": "europa",
-      "name": "Europe (Europa)",
+      "name": "Europa",
       "subTitle": "O continente mais antigo.",
-      "img": "",
+      "img": "https://www.belta.org.br/wp-content/uploads/reino-unido-bolsas-810x430.jpg",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste. No entanto, as fronteiras para a Europa, um conceito que remonta à Antiguidade clássica, são um tanto arbitrárias, visto que o termo 'Europa' pode referir-se a uma distinção cultural e política ou geográfica.",
       "countries": 58,
       "languages": 60,
       "citiesNum": 16,
       "citiesPlus": [
         {
-          "city": "Reino Unido (United Kingdom)",
-          "capital": "Londres (London)",
+          "city": "Reino Unido",
+          "capital": "Londres",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png",
-          "img": ""
+          "img": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_City_London.jpg"
         },
         {
-          "city": "França (France)",
+          "city": "França",
           "capital": "Paris",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png",
-          "img": ""
+          "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Paris_vue_d%27ensemble_tour_Eiffel.jpg"
         },
         {
           "city": "Turkey",
           "capital": "Istanbul",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png",
-          "img": ""
+          "img": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bosphorus_Bridge_%28235499411%29.jpeg"
         },
         {
           "city": "Turkey",
           "capital": "Antalya",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png",
-          "img": ""
+          "img": "http://www.qualviagem.com.br/wp-content/uploads/2017/05/iStock-526535619.jpg"
         },
         {
-          "city": "Itália (Italy)",
-          "capital": "Roma (Rome)",
+          "city": "Itália",
+          "capital": "Roma",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
-          "img": ""
+          "img": "https://sofitel.accor.com/destinations/imagerie/roma-overview-1400x788-1-bd6e_1400x788.jpg"
         },
         {
-          "city": "Republica Tcheca (Czechia)",
+          "city": "Republica Tcheca",
           "capital": "Praga",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1024px-Flag_of_the_Czech_Republic.svg.png",
-          "img": ""
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Prague_cityscape_at_dusk_%288325431303%29.jpg/1200px-Prague_cityscape_at_dusk_%288325431303%29.jpg"
         },
         {
-          "city": "Holanda (Netherlands)",
-          "capital": "Amsterdã (Amsterdam)",
+          "city": "Holanda",
+          "capital": "Amsterdã",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
-          "img": ""
+          "img": "https://www.conexaoamsterdam.com.br/wp-content/uploads/2015/06/rijksmuseum-e1433879089119.jpg"
         },
         {
           "city": "Spain",
           "capital": "Barcelona",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png",
-          "img": ""
+          "img": "https://www.icaiconf.org/wp-content/uploads/2018/07/barcelona-city-wallpaper1.jpg"
         },
         {
           "city": "Italy",
           "capital": "Milan",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png",
-          "img": ""
+          "img": "https://upload.wikimedia.org/wikipedia/commons/5/51/PM-9728-FORMATO-2.jpg"
         },
         {
           "city": "Austria",
           "capital": "Vienna",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1024px-Flag_of_Austria.svg.png",
-          "img": ""
+          "img": "https://cdn2.civitatis.com/austria/viena/galeria/palacio-hofburg-noche.jpg"
         },
         {
           "city": "Germany",
           "capital": "Berlin",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
-          "img": ""
+          "img": "https://www.onde-e-quando.net/site/images/illustration/oualler/-berlin.jpg"
         },
         {
           "city": "Greece",
           "capital": "Athens",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png",
-          "img": ""
+          "img": "https://content.r9cdn.net/rimg/dimg/c3/1b/bf736e79-lm-3517-167c24120e7.jpg?crop=true&width=1366&height=768&xhint=1412&yhint=1235"
         },
         {
           "city": "Russia",
           "capital": "Moscow",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/800px-Flag_of_Russia.svg.png",
-          "img": ""
+          "img": "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/europe/russia/moscow/destinations-moscow-banner-mobile-1024x553.jpg"
         },
         {
           "city": "Italy",
           "capital": "Venice",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png",
-          "img": ""
+          "img": "https://www.traveldailymedia.com/assets/2019/06/shutterstock_1316625557.jpg"
         },
         {
           "city": "Spain",
           "capital": "Madrid",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/2560px-Flag_of_Spain.svg.png",
-          "img": ""
+          "img": "https://www.eurodicas.com.br/wp-content/uploads/2021/06/melhores-bairros-de-madrid.jpg"
         },
         {
           "city": "Ireland",
           "capital": "Dublin",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/2560px-Flag_of_Ireland.svg.png",
-          "img": ""
+          "img": "https://www.eurodicas.com.br/wp-content/uploads/2020/12/morar-em-dublin.jpg"
         },
         {
           "city": "Italy",
           "capital": "Florence",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png",
-          "img": ""
+          "img": "https://thenomadvisor.com/wp-content/uploads/2019/09/whertostayflorence-780x520.jpg"
         },
         {
           "city": "Portugal",
           "capital": "Lisbon",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png",
-          "img": ""
+          "img": "https://i.guim.co.uk/img/media/bf48c81421313e74475763bd7dcbe9ac6735de97/388_666_6112_3668/master/6112.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=82a620182f39342739d1401ab488ff44"
         },
         {
           "city": "France",
           "capital": "Nice",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png",
-          "img": ""
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f7/48/nice.jpg?w=700&h=500&s=1"
         },
         {
           "city": "Portugal",
           "capital": "Porto",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png",
-          "img": ""
+          "img": "https://viagemeturismo.abril.com.br/wp-content/uploads/2017/05/istock-533960357-1.jpg"
         }
       ]
     },
     {
       "slug": "america-do-norte",
-      "name": "North America (América do Norte)",
+      "name": "América do Norte",
       "subTitle": "",
-      "img": "",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg",
       "description": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite em algum local no Istmo do Panamá (umas vezes no Canal do Panamá, outras na fronteira entre o Panamá e a Colômbia e outras na fronteira entre Panamá e Costa Rica). Pela última definição, a América do Norte incluiria a América Central Continental e Insular (Caribe).",
       "countries": 8,
       "languages": 256,
@@ -146,61 +146,61 @@
           "city": "US",
           "capital": "New York City",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "http://3.bp.blogspot.com/-R_cjLXpKarQ/VEZd2NgoJuI/AAAAAAAAB8k/132sz9VyLnI/s1600/New_york_times_square-terabass.jpg"
         },
         {
           "city": "US",
           "capital": "Miami",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "https://content.r9cdn.net/rimg/dimg/17/74/0ca6e469-city-30651-1632b88f203.jpg?width=1750&height=1000&xhint=2635&yhint=1507&crop=true"
         },
         {
           "city": "US",
           "capital": "Los Angeles",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "https://www.visiteosusa.com.br/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-01/Getty_515070156_EDITORIALONLY_LosAngeles_HollywoodBlvd_Web72DPI_0.jpg?itok=lst_2_5d"
         },
         {
           "city": "US",
           "capital": "Las Vegas",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "https://cdn.getyourguide.com/img/location/5ffeb496e3e09.jpeg/88.jpg"
         },
         {
           "city": "Mexico",
           "capital": "Cancun",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2560px-Flag_of_Mexico.svg.png",
-          "img": ""
+          "img": "https://a.cdn-hotels.com/gdcs/production188/d923/47643da8-6e46-4c83-8379-95b43b9e2684.jpg"
         },
         {
           "city": "US",
           "capital": "Orlando",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "https://a.cdn-hotels.com/gdcs/production9/d394/d2da586b-0f28-423e-b9e6-2cf51d57a459.jpg"
         },
         {
           "city": "Canada",
           "capital": "Toronto",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png",
-          "img": ""
+          "img": "https://etacanadavisa.com.br/main/wp-content/uploads/2017/09/1505765941_image1.jpeg"
         },
         {
           "city": "Canada",
           "capital": "Vancouver",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png",
-          "img": ""
+          "img": "https://mundoviajar.com.br/wp-content/uploads/2018/11/Vancouver4.jpg"
         },
         {
           "city": "US",
           "capital": "San Francisco",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/1e/San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg"
         },
         {
           "city": "US",
           "capital": "Honolulu",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Flag_of_the_United_States_%281877%E2%80%931890%29.svg/2560px-Flag_of_the_United_States_%281877%E2%80%931890%29.svg.png",
-          "img": ""
+          "img": "https://www.visiteosusa.com.br/sites/default/files/styles/16_9_1280x720/public/2017-02/HERO%207_Honolulu_Waikiki_500PX_WEB72DPI.jpg?itok=uEUn_N7c"
         }
       ]
     },
@@ -208,7 +208,7 @@
       "slug": "america-d-sul",
       "name": "América do Sul",
       "subTitle": "",
-      "img": "",
+      "img": "https://www.equinor.com/content/dam/statoil/image/country-banners-restricted/Brasil.jpg.transform/extra-large/image.jpg",
       "description": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial. Une-se à América Central a norte pelo istmo do Panamá e se separa da Antártida ao sul pelo estreito de Drake. Tem uma extensão de 7 500 km desde o mar do Caribe até ao cabo Horn, ponto extremo sul do continente. Os outros pontos extremos da América do Sul são: ao norte a Punta Gallinas, na Colômbia, ao leste a Ponta do Seixas, no Brasil, e a oeste a Punta Pariñas, no Peru.",
       "countries": 15,
       "languages": 456,
@@ -218,19 +218,19 @@
           "city": "Argentina",
           "capital": "Buenos Aires City",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2560px-Flag_of_Argentina.svg.png",
-          "img": ""
+          "img": "https://www.buenosaires.gob.ar/sites/gcaba/files/al_avenida_9_dejulio.jpg"
         },
         {
           "city": "Peru",
           "capital": "Lima",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/2560px-Flag_of_Peru_%28state%29.svg.png",
-          "img": ""
+          "img": "https://blog.clubecandeias.com/wp-content/uploads/2018/11/o-que-fazer-em-lima-no-peru-confira-as-nossas-dicas.jpg"
         },
         {
           "city": "Brazil",
           "capital": "Rio de Janeiro",
           "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
-          "img": ""
+          "img": "https://www.comandantenobre.com.br/wp-content/uploads/2020/02/Qual-a-origem-do-nome-rio-de-janeiro.jpg"
         }
       ]
     },
@@ -238,7 +238,7 @@
       "slug": "asia",
       "name": "Asia",
       "subTitle": "",
-      "img": "",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lugard_panorama_cropped.jpg/800px-Lugard_panorama_cropped.jpg",
       "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering. Na Ásia são encontradas algumas das montanhas mais altas do mundo; os rios mais extensos; os maiores desertos, planícies e planaltos; as selvas e florestas mais densas. A altitude máxima e a mínima está localizada na Ásia.",
       "countries": 57,
       "languages": 2.301,
@@ -248,243 +248,243 @@
           "city": "China",
           "capital": "Hong Kong",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://www.infoescola.com/wp-content/uploads/2020/08/hong-kong_693729124.jpg"
         },
         {
           "city": "Thailand",
           "capital": "Bangkok",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1024px-Flag_of_Thailand.svg.png",
-          "img": ""
+          "img": "https://turistaprofissional.com/wp-content/uploads/2017/11/grand-palace-bangkok.jpg"
         },
         {
           "city": "China (SAR)",
           "capital": "Macau",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://embarquenaviagem.com/wp-content/uploads/2019/07/Hotel-Grand-Lisboa-em-Macau-um-dos-cart%C3%B5es-postais-da-cidade-Cr%C3%A9dito-Divulga%C3%A7%C3%A3o.jpg"
         },
         {
           "city": "Singapore",
           "capital": "Singapore",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1200px-Flag_of_Singapore.svg.png",
-          "img": ""
+          "img": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2015/10/30/1510/Grand-Hyatt-Singapore-P615-Esplanade.jpg/Grand-Hyatt-Singapore-P615-Esplanade.16x9.jpg"
         },
         {
           "city": "UAE",
           "capital": "Dubai",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png",
-          "img": ""
+          "img": "https://assistentedeviagem.com.br/blog/wp-content/uploads/2021/04/dubai.jpg"
         },
         {
           "city": "Malaysia",
           "capital": "Kuala Lumpur",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Malaysia_%283-2%29.svg",
-          "img": ""
+          "img": "https://viagemeturismo.abril.com.br/wp-content/uploads/2012/05/kuala-lumpur-1820944.jpg"
         },
         {
           "city": "Turkey",
           "capital": "Istanbul",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png",
-          "img": ""
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/be/42/hagia-sophia-museum-by.jpg?w=600&h=400&s=1"
         },
         {
           "city": "India",
           "capital": "Delhi",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/2560px-Flag_of_India.svg.png",
-          "img": ""
+          "img": "https://cdn.getyourguide.com/img/location/533591d4b943b.jpeg/88.jpg"
         },
         {
           "city": "Turkey",
           "capital": "Antalya",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png",
-          "img": ""
+          "img": "https://idsb.tmgrup.com.tr/ly/uploads/images/2020/03/02/23211.jpg"
         },
         {
           "city": "China",
           "capital": "Shenzhen",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://149346090.v2.pressablecdn.com/wp-content/uploads/2021/07/GettyImages-1269074849-768x432.jpg"
         },
         {
           "city": "India",
           "capital": "Mumbai",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/2560px-Flag_of_India.svg.png",
-          "img": ""
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/4e/55/e6/chhatrapati-shivaji-terminus.jpg?w=700&h=500&s=1"
         },
         {
           "city": "Thailand",
           "capital": "Phuket",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1024px-Flag_of_Thailand.svg.png",
-          "img": ""
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/c8/caption.jpg?w=700&h=500&s=1&cx=2606&cy=1838&chk=v1_a61182fd4040ed4ecc4e"
         },
         {
           "city": "Japan",
           "capital": "Tokyo",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Japan_flag_-_variant.png",
-          "img": ""
+          "img": "https://i.insider.com/5d26280921a86107bb51bd92?width=1067&format=jpeg"
         },
         {
           "city": "Thailand",
           "capital": "Pattaya",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1024px-Flag_of_Thailand.svg.png",
-          "img": ""
+          "img": "https://www.onde-e-quando.net/site/images/illustration/pattaya_316.jpg"
         },
         {
           "city": "Taiwan, China",
           "capital": "Taipei",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://www.momondo.com.br/rimg/dimg/03/bd/c9c27e88-city-19888-176e2713ee4.jpg?width=1366&height=768&xhint=3115&yhint=1416&crop=true"
         },
         {
           "city": "Saudi Arabia",
           "capital": "Mecca",
           "flag": "https://i0.wp.com/kashmirlife.net/wp-content/uploads/2022/02/SAudi-Flag.jpg?resize=696%2C462&ssl=1",
-          "img": ""
+          "img": "https://cdn.britannica.com/20/153520-050-177A78E4/Kabah-hajj-pilgrims-Saudi-Arabia-Mecca.jpg"
         },
         {
           "city": "China",
           "capital": "Guangzhou",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://content.r9cdn.net/rimg/dimg/87/07/2a86d6b1-city-17708-165a63a1c17.jpg?crop=true&width=1366&height=768&xhint=3734&yhint=1996"
         },
         {
           "city": "Saudi Arabia",
           "capital": "Medina",
           "flag": "https://i0.wp.com/kashmirlife.net/wp-content/uploads/2022/02/SAudi-Flag.jpg?resize=696%2C462&ssl=1",
-          "img": ""
+          "img": "https://www.visitsaudi.com/content/dam/no-dynamic-media-folder/manifest-batch3b/destination-page--medina-/destination_page_medina_map__1.jpg"
         },
         {
           "city": "South Korea",
           "capital": "Seoul",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-          "img": ""
+          "img": "https://v2.cimg.co/news/64363/38867/adobestock-358322998.jpg"
         },
         {
           "city": "India",
           "capital": "Agra",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/2560px-Flag_of_India.svg.png",
-          "img": ""
+          "img": "https://content.r9cdn.net/rimg/dimg/f5/e5/a45c961d-city-29118-164803dbdc7.jpg?width=1750&height=1000&xhint=1708&yhint=561&crop=true"
         },
         {
           "city": "Japan",
           "capital": "Osaka",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Japan_flag_-_variant.png",
-          "img": ""
+          "img": "https://www.travelanddestinations.com/wp-content/uploads/2019/01/Osaka-Japan-at-night.jpg"
         },
         {
           "city": "China",
           "capital": "Shanghai",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://www.ischooladvisor.com/static/schools/shangai-international-schools.jpg"
         },
         {
           "city": "Vietnam",
           "capital": "Ho Chi Minh City",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/640px-Flag_of_Vietnam.svg.png",
-          "img": ""
+          "img": "https://www.tripsavvy.com/thmb/BHG9Xa_H59w8uNR51eldY4jlfP8=/4096x2730/filters:fill(auto,1)/ho-chi-minh-city-at-night-22c7df816ce4493eb0e86cf54fe03309.jpg"
         },
         {
           "city": "Indonesia",
           "capital": "Denpasar",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2560px-Flag_of_Indonesia.svg.png",
-          "img": ""
+          "img": "https://www.whereandwhen.net/site/images/illustration/denpasar_313.jpg"
         },
         {
           "city": "India",
           "capital": "Chennai",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/2560px-Flag_of_India.svg.png",
-          "img": ""
+          "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/101000/101713-Chennai-And-Vicinity.jpg"
         },
         {
           "city": "Malaysia",
           "capital": "Johor Bahru",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Malaysia_%283-2%29.svg",
-          "img": ""
+          "img": "https://content.r9cdn.net/rimg/dimg/2f/8e/5e54c6c2-city-44529-1730e509106.jpg?crop=true&width=1366&height=768&xhint=1895&yhint=2431"
         },
         {
           "city": "India",
           "capital": "Jaipur",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/2560px-Flag_of_India.svg.png",
-          "img": ""
+          "img": "http://www.qualviagem.com.br/wp-content/uploads/2019/09/iStock-903877840.jpg"
         },
         {
           "city": "Egypt",
           "capital": "Cairo",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/2560px-Flag_of_Egypt.svg.png",
-          "img": ""
+          "img": "https://www.minutoseguros.com.br/blog/wp-content/uploads/2018/10/cairo-1980350_960_720.jpg"
         },
         {
           "city": "Russia",
           "capital": "Moscow",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/800px-Flag_of_Russia.svg.png",
-          "img": ""
+          "img": "https://www.planete-energies.com/sites/default/files/styles/media_full_width_940px/public/thumbnails/image/moscow.jpg?itok=J_vRU4rA"
         },
         {
           "city": "Vietnam",
           "capital": "Ha Long",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/640px-Flag_of_Vietnam.svg.png",
-          "img": ""
+          "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/6c/25.jpg"
         },
         {
           "city": "Saudi Arabia",
           "capital": "Riyadh",
           "flag": "https://i0.wp.com/kashmirlife.net/wp-content/uploads/2022/02/SAudi-Flag.jpg?resize=696%2C462&ssl=1",
-          "img": ""
+          "img": "https://content.r9cdn.net/rimg/dimg/7d/60/488863c5-city-35744-16935f1b104.jpg?crop=true&width=1366&height=768&xhint=1725&yhint=1010"
         },
         {
           "city": "China",
           "capital": "Beijing",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://quicksilvertranslate.com/wp-content/uploads/iu-10-3-710x400.jpeg"
         },
         {
           "city": "Japan",
           "capital": "Kyoto",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Japan_flag_-_variant.png",
-          "img": ""
+          "img": "https://www.vounajanela.com/wp-content/uploads/2020/01/kyoto-japao-1-1.jpg"
         },
         {
           "city": "China",
           "capital": "Zhuhai",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://www.e-architect.com/wp-content/uploads/2018/07/zhuhai-opera-house-b240718-fx1.jpg"
         },
         {
           "city": "Thailand",
           "capital": "Chiang Mai",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1024px-Flag_of_Thailand.svg.png",
-          "img": ""
+          "img": "https://ci-prod.imgix.net/upload/galeriadeimagens/00209185.jpg"
         },
         {
           "city": "China",
           "capital": "Guilin",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-          "img": ""
+          "img": "https://quantocustaviajar.com/blog/wp-content/uploads/2017/12/guangxi2.jpg"
         },
         {
           "city": "Japan",
           "capital": "Chiba",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Japan_flag_-_variant.png",
-          "img": ""
+          "img": "https://www.asgam.com/wp-content/uploads/2019/05/fs_1506980010_0.jpg"
         },
         {
           "city": "Japan",
           "capital": "Fukuoka",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Japan_flag_-_variant.png",
-          "img": ""
+          "img": "https://japancheapo.com/wp-content/uploads/sites/3/2018/07/fukuoka-skyline-iStock-845231208-1024x600.jpg"
         },
         {
           "city": "South Korea",
           "capital": "Jeju",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-          "img": ""
+          "img": "http://www.qualviagem.com.br/wp-content/uploads/2018/03/iStock-533354114.jpg"
         }
       ]
     },
     {
       "slug": "africa",
-      "name": "Africa (África)",
+      "name": "África",
       "subTitle": "",
-      "img": "",
+      "img": "https://cdn2.wanderlust.co.uk/media/1028/shutterstock_377416276.jpg?anchor=center&mode=crop&width=1200&height=0&rnd=132100909710000000",
       "description": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005), representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
       "countries": 54,
       "languages": 2092,
@@ -495,7 +495,7 @@
       "slug": "oceania",
       "name": "Oceania",
       "subTitle": "",
-      "img": "",
+      "img": "https://kveez.com/en/geography/capitals-of-oceania-quiz/capitals-of-oceania-quiz.jpg",
       "description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
       "countries": 38,
       "languages": 1630,
