@@ -20,13 +20,12 @@ This app features all the latest tools and practices in web development!
 - ⚛  **NextJs**
 - ⚡  **ChakraUI**
 - 💖 **Lint**
-- 📝 **Prismic CMS**
 
 I've used other libraries too, like **swiper** for touch slider accelerated transitions; **json-server** for fake REST API; 
 
 ## Getting started
 
-First you need to have `node` or `yarn` installed on your machine. Then, you can clone this repository and run the following commands inside the project folder:
+First you need to have `node` and `yarn` installed on your machine. Then, you can clone this repository and run the following commands inside the project folder:
 
 1. `yarn`;
 2. `yarn server`;
